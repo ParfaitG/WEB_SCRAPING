@@ -1,7 +1,7 @@
 library(XML)
 
 # SET CURRENT PATH
-setwd("D:\\Freelance Work\\Sandbox\\WEB_SCRAPING")
+setwd("C:\Path\To\Working\Directory")
 
 # READING IN HTML TABLE FROM URL
 url <- "http://www.bartleby.com/titles"
@@ -36,7 +36,7 @@ for (i in 1:nrow(literatureworks)) {
 }
 
 literatureworks <- literatureworks[nchar(literatureworks$Title) > 0, ]
-literatureworks$Title <- gsub("Â", "", literatureworks$Title)
+literatureworks$Title <- gsub("Ã‚", "", literatureworks$Title)
 
 # OUTPUT FINAL DATA FRAME
 write.csv(literatureworks, "HTMLDATA_R.csv", row.names=FALSE)
