@@ -1,5 +1,5 @@
 * SET DIRECTORY;
-%let cd = D:\Freelance Work\Sandbox\WEB_SCRAPING\;
+%let cd = C:\Path\To\Working\Directory;
 
 *DOWNLOAD HTML DATA;
 filename fn url 'http://www.bartleby.com/titles/';
