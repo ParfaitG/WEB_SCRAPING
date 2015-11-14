@@ -1,11 +1,12 @@
 # WEB_SCRAPING
-HTML table download scripts in PHP, Python, R, SAS, MS Access/MS Excel
+HTML table download scripts in Java, PHP, Python, R, SAS, MS Access/MS Excel
 
 Using Bartleby.com/titles webpage, scripts scrape the html table of listed titles and authors and then outputs html data into local csv files.
 
 **REQUIREMENTS**
 
-1. PHP (5+) - none 
+1. Java (1.8+) - Jsoup library
+2. PHP (5+) - none 
 2. Python (3+) - lxml and urlib.request modules
 3. R (3+) - XML library
 4. SAS (9+) - none
