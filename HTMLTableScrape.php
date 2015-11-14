@@ -12,7 +12,7 @@ $contents = file($cd.'/temp.html');
 $out=[];
 $i = 1;
 foreach($contents as $line){    
-    if($i>=165 && $i<=1008 && strpos($line,'var vclk_options') != true) {        
+    if($i>=159 && $i<=1008 && strpos($line,'var vclk_options') != true) {        
         $out[] = str_replace('E.C. Stedman</A>', 'E.C. Stedman', $line) ;
     }    
     $i++;
